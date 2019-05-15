@@ -1,0 +1,9 @@
+
+
+@function sum-function ($a , $b) {
+	@return $a + $b;
+}
+
+@function calc-perc ($target, $container) {
+	@return ($target/$container)*100;
+}

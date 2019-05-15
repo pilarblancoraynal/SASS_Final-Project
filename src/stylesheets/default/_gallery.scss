@@ -1,0 +1,17 @@
+
+	/************ GALLERY **********/
+	#gallery {
+		& .item {
+			width: 33.3333%;
+		}
+		&:nth-child(3n + 1) {
+			clear: left;
+		}
+	}
+	
+
+
+
+
+
+

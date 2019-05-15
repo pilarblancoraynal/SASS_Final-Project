@@ -1,0 +1,31 @@
+.features {
+	.items{
+		display:flex;
+	}
+
+	.item{
+		flex:1;
+		padding: 0 15px;
+
+	  &:first-child {
+		  display: flex;
+
+		  .card {
+			  flex:1;
+			  flex-direction: column;
+			  display: flex;
+		  }
+	   }
+	   &:nth-child(2) {
+		 .card {
+			 display:flex;
+		 }
+	   .picture{
+			flex: 1 1 25%;
+	   }
+	   .caption{
+			flex: 1 1 75%;
+	   }
+	}
+}
+}

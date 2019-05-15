@@ -1,0 +1,10 @@
+
+
+	nav li a {
+		transition: background .3s;
+	}
+
+	nav li a:hover {
+		background: $primary-color;
+		border-radius: 3px;
+	}

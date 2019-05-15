@@ -1,0 +1,15 @@
+
+
+	#gallery .item {
+	 transition: opacity .3s;
+	 
+	 &:hover {
+		opacity: .7;
+	   }
+	 &:nth-child(2n + 1) {
+		clear: left;
+	   }
+	}
+
+
+
